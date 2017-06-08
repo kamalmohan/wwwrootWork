@@ -1,0 +1,303 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ph",
+				"php"
+			],
+			[
+				"php",
+				"phpinfo"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"get",
+				"getCurrentPosition"
+			],
+			[
+				"ge",
+				"geolocation"
+			],
+			[
+				"fun",
+				"func"
+			],
+			[
+				"head",
+				"header\tTag"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"fi",
+				"figure\tTag"
+			],
+			[
+				"for",
+				"font-variant-east-asian"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"padd",
+				"padding-left"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"end of",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/inetpub/wwwroot/start",
+		"/C/inetpub/wwwroot/start/material",
+		"/C/inetpub/wwwroot/start/material/css",
+		"/C/inetpub/wwwroot/start/material/img"
+	],
+	"file_history":
+	[
+		"/C/inetpub/wwwroot/start/material/css/material.css",
+		"/C/inetpub/wwwroot/start/material/index.html",
+		"/C/inetpub/wwwroot/start/material-framework/css/material.css",
+		"/C/inetpub/wwwroot/start/index.htm",
+		"/C/inetpub/wwwroot/iisstart.htm",
+		"/C/inetpub/wwwroot/start/style/style.css",
+		"/C/inetpub/wwwroot/start/index.php",
+		"/C/inetpub/wwwroot/start/location.htm",
+		"/C/Users/kamal/AppData/Roaming/Sublime Text 3/Packages/User/ColorHighlighter.sublime-settings",
+		"/C/Users/kamal/AppData/Roaming/Sublime Text 3/Packages/ColorPicker/ColorPicker.sublime-settings",
+		"/C/inetpub/wwwroot/style/style.css",
+		"/C/inetpub/wwwroot/start/webstorage.htm",
+		"/C/inetpub/wwwroot/start/colors.htm",
+		"/C/inetpub/wwwroot/start/page2.htm",
+		"/C/inetpub/wwwroot/start/page3.htm",
+		"/C/inetpub/wwwroot/start/js.htm",
+		"/C/Users/kamal/Desktop/Windows Server 2016.txt",
+		"/S/--!_Tools_/Product_Keys/Windows.txt",
+		"/S/--!_Tools_/Product_Keys/Windows Server.txt",
+		"/C/Users/kamal/Desktop/gapps-config-backup# Created by kml.txt",
+		"/C/Users/kamal/AppData/Roaming/Skype/My Skype Received Files/bytes_sent_persec_redhat.txt",
+		"/C/Users/kamal/AppData/Local/Temp/Rar$DIa0.226/Pebbles Dark Grid free.xml",
+		"/C/Users/kamal/AppData/Local/Temp/Rar$DIa0.144/Readme.txt",
+		"/H/Excpy/ExcpyLoginChange.txt",
+		"/H/Excpy/WinSCP.ini",
+		"/C/Users/kamal/AppData/Local/Microsoft/Windows/INetCache/IE/5DUMY4YN/open_gapps_log[1].txt",
+		"/C/Program Files (x86)/Google/Chrome/Application/chrome.exe",
+		"/C/Program Files (x86)/Google/Chrome/Application/chrome.VisualElementsManifest.xml",
+		"/C/Program Files (x86)/Google/Chrome/Application/master_preferences",
+		"/H/IPv6/IPv6 Static Addressing",
+		"/C/Users/kamal/AppData/Local/Temp/scp11700/home/admin/BytesReceivedPerSec.sh",
+		"/H/Scripting/BytesReceivedPerSec.sh",
+		"/C/Users/kamal/AppData/Local/Temp/Rar$DIa0.750/Restore.plist",
+		"/C/Users/kamal/AppData/Local/Temp/Rar$DIa0.652/BuildManifest.plist",
+		"/C/Users/kamal/AppData/Roaming/Apple Computer/iTunes/iTunesPrefs.xml",
+		"/C/Users/kamal/AppData/Roaming/Apple Computer/iTunes/iPhone Updater Logs/iPhoneUpdater 7.log",
+		"/H/Scripting/start_sybase.sh",
+		"/C/Users/kamal/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Windows/ProfessionalN.xml",
+		"/C/Users/kamal/AppData/Local/Temp/scp57175/var/log/mongodb/mongod.log",
+		"/C/Users/kamal/AppData/Local/Temp/scp02940/var/lib/mongodb/journal/WiredTigerLog.0000000051",
+		"/C/Users/kamal/AppData/Local/Temp/scp45104/var/mail/argent",
+		"/U/--- Keys ---/ANY_ANY/AT/Any_Any/TRIV_INDIA_LTD_CREATED_22_Aug_2016_02_57_AT_LICENSE.LIC",
+		"/C/Android/.gapps-config",
+		"/C/Users/kamal/Desktop/gapps-config.txt",
+		"/H/Sql Query/change_status.sql",
+		"/H/Sql Query/change_mode.sql"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"content",
+			"Now",
+			"_blank",
+			"33583106",
+			"iphone"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "start.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 219.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

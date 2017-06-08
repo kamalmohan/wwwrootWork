@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript</title>
+	<script>
+
+	  function getLocation()
+	    {
+	    if (navigator.geolocation)
+	      {
+	      navigator.geolocation.getCurrentPosition(showPosition);
+	      }
+	    else
+		  { 
+		  document.getElementById("html.net").innerHTML="Geolocation is not supported by this browser.";
+		  }
+	    }
+	    
+	  function showPosition(position)
+	    {
+	    // document.getElementById("html.net").innerHTML="Latitude: " + position.coords.latitude +
+	    // "<br>Longitude: " + position.coords.longitude;
+
+	    var latlon=position.coords.latitude+","+position.coords.longitude;
+	  var img_url="http://maps.googleapis.com/maps/api/staticmap?center="+latlon+"&zoom=14&size=400x300&sensor=false";
+	  document.getElementById("html.net").innerHTML="<img src='"+img_url+"'>";
+	    }
+
+	</script>
+</head>
+<body>
+<p id="html.net">Where are you in the world?</p>
+<button onclick="getLocation()">Get Coordinates</button>
+</body>
+</html>

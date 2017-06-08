@@ -1,0 +1,16 @@
+db.createUser
+			(
+			{
+			user:"admin",
+			pwd:"SyF827cQ*@HXd8UQ",
+			roles:["dbAdmin","readAnyDatabase","readWrite"]
+			}
+			)
+
+db.updateUser
+			( 
+			"admin", 
+			{ 
+			roles:["dbAdmin","readAnyDatabase","readWrite"]
+			}
+			)

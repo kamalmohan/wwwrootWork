@@ -1,0 +1,57 @@
+body {
+	/*background-color: #dcdcdc;*/
+	font-family: courier;
+}
+h1 {
+	color: #ff0000;
+	text-transform: capitalize;
+}
+h2 {
+	color: #FF00DCFF;
+	text-transform: uppercase;
+}
+a:link {
+	text-decoration: none;
+	color: blue;
+	font-family: 'Trirong', serif;
+	/*font-size: 48px;*/
+}
+a:visited {
+	text-decoration: underline;
+}
+a:hover {
+	color: black;
+	/*font-style: italic;*/
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: none;
+}
+a#subfolder {
+	text-decoration: line-through;
+	color: red;
+}
+figure {
+	text-align: center;
+	margin-top: 25px;
+}
+p {
+	text-indent: 30px;
+	text-align: justify;
+	margin: 10px;
+}
+#column1 {
+
+	float:left;
+	width: 33%;
+}
+
+#column2 {
+	float:left;
+	width: 33%;
+	clear: both; /*always be under the lower margin border for possible floating boxes */
+}
+
+#column3 {
+	float:left;
+	width: 33%;
+}

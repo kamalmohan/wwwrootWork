@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web storage</title>
+	<script>
+	    function clickCounter()
+	      {
+	      if(typeof(Storage)!=="undefined")
+	        {
+	        if (localStorage.clickcount)
+	          {
+	          localStorage.clickcount=Number(localStorage.clickcount)+1;
+	          }
+	        else
+	          {
+	          localStorage.clickcount=1;
+	          }
+	        document.getElementById("result").innerHTML= + localStorage.clickcount + " people have liked this page.";
+	        }
+	      else
+	        {
+	        document.getElementById("result").innerHTML="Your browser does not support web storage.";
+	        }
+	      }
+	  </script>
+</head>
+<body>
+<p><button onclick="clickCounter()" type="button">Like!</button></p>
+	  <div id="result"></div>
+</body>
+</html>

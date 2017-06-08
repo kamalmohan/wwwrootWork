@@ -1,0 +1,14 @@
+{
+  "name": "sysinfoapp",
+  "version": "1.0.0",
+  "description": "System Info",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Kamal Mohan",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^1.6.8"
+  }
+}
