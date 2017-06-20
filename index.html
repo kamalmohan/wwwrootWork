@@ -6,9 +6,9 @@
     <link rel="stylesheet" href="css/material.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="demo-files/demo.css" />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css' />
     <link href="img/2.png" rel="shortcut icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="description" content="Material Framework is an easy to use Material Design Framework for the web.">
     <meta charset="utf-8" />
     <script>
         function clickCounter() {
@@ -99,7 +99,7 @@ Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
 
             <li class="divider"></li>
             <h2 class="subheading">Projects</h2>
-            <li ripple><a href="#ee"><i class="icon-timer"></i>Express Entry</a></li>
+            <li ripple><a href="#ee"><i class="icon-timer"></i>Timer</a></li>
             <li ripple><a href="#wage"><i class="icon-vpn"></i>Wage Calculator</a></li>
             <li ripple><a href="#php"><i class="icon-parking"></i>PHP Info</a></li>
             <li ripple><a href="#test"><i class="icon-wb-incandescent"></i>Testing</a></li>
@@ -156,31 +156,50 @@ Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
         </div>
         <!-- Time Ticker Start -->
         <div class="navigation-section" id="ee">
-            <div data-type="countup" data-id="16342" class="tickcounter" style="padding: 20px; background-color: inherit;">
-                <a href="//www.tickcounter.com/countup/16342/working-in-argent" title="Working in Argent">Working in Argent</a>
+            <div class="col-lg-12" style="padding-top:20px">
+                <div data-type="countup" data-id="16342" class="tickcounter">
+                    <a href="//www.tickcounter.com/countup/16342/working-in-argent" title="Working in Argent">Working in Argent</a>
+                </div>
             </div>
-            <div data-type="countup" data-id="16225" class="tickcounter" style="padding: 20px; float: left; width: 30%;">
-                <a href="//www.tickcounter.com/countup/16225/ee-acceptance-date" title="EE Acceptance Date">EE Acceptance Date</a>
+            <div class="col-lg-4" style="padding-top:20px">
+                <div data-type="countup" data-id="16225" class="tickcounter" style="">
+                    <a href="//www.tickcounter.com/countup/16225/ee-acceptance-date" title="EE Acceptance Date">EE Acceptance Date</a>
+                </div>
             </div>
-            <div data-type="countup" data-id="16227" class="tickcounter" style="padding: 20px; float: left; width: 30%;">
-                <a href="//www.tickcounter.com/countup/16227/medicals-passed" title="Medicals Passed">Medicals Passed</a>
+            <div class="col-lg-4" style="padding-top:20px">
+                <div data-type="countup" data-id="16227" class="tickcounter" style="">
+                    <a href="//www.tickcounter.com/countup/16227/medicals-passed" title="Medicals Passed">Medicals Passed</a>
+                </div>
             </div>
-            <div data-type="countup" data-id="21566" class="tickcounter" style="padding: 20px; float: left; width: 30%;">
-                <a href="//www.tickcounter.com/countup/21566/ppr" title="PPR">PPR</a>
+            <div class="col-lg-4" style="padding-top:20px">
+                <div data-type="countup" data-id="21585" class="tickcounter">
+                    <a href="//www.tickcounter.com/countup/21585/passport-request" title="Passport Request">Passport Request</a>
+                </div>
             </div>
-            <div data-type="clock" data-id="213" class="tickcounter" style="padding: 20px; float: left; width: 30%;">
-                <a href="//www.tickcounter.com/worldclock/213/" title="Current time in Toronto">Current time in Toronto</a>
+            <div class="col-lg-4" style="padding-top:20px">
+                <div data-type="clock" data-id="213" class="tickcounter" style="">
+                    <a href="//www.tickcounter.com/worldclock/213/" title="Current time in Toronto">Current time in Toronto</a>
+                </div>
             </div>
-            <div data-type="clock" data-id="1275" class="tickcounter" style="padding: 20px; float: left; width: 30%;">
-                <a href="//www.tickcounter.com/worldclock/1275/current-time-in-calcutta" title="Current time in Calcutta">Current time in Calcutta</a>
+            <div class="col-lg-4" style="padding-top:20px">
+                <div data-type="clock" data-id="1275" class="tickcounter" style="">
+                    <a href="//www.tickcounter.com/worldclock/1275/current-time-in-calcutta" title="Current time in Calcutta">Current time in Calcutta</a>
+                </div>
             </div>
-            <div data-type="clock" data-id="527" class="tickcounter" style="padding: 20px; float: left; width: 30%;">
-                <a href="//www.tickcounter.com/worldclock/527/" title="Current time in Auckland">Current time in Auckland</a>
+            <div class="col-lg-4" style="padding-top:20px">
+                <div data-type="clock" data-id="527" class="tickcounter" style="">
+                    <a href="//www.tickcounter.com/worldclock/527/" title="Current time in Auckland">Current time in Auckland</a>
+                </div>
+
             </div>
         </div>
         <!-- Time Ticker End -->
         <div class="navigation-section" id="wage">
-            <embed src="/wage_calculator.html"></embed>
+            <div class="container" style="padding-left:10%">
+                <div class="col-lg-8">
+                    <embed src="/wage_calculator.html"></embed>
+                </div>
+            </div>
         </div>
         <div class="navigation-section" id="test">
             <embed src="/start/index.htm"></embed>
@@ -1126,6 +1145,8 @@ Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
     <script src="js/material.js"></script>
     <script src="demo-files/demo.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/prettify/r224/prettify.js" async></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
 </body>
 
 </html>
