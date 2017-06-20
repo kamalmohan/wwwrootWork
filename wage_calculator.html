@@ -1,256 +1,258 @@
 <!doctype html>
-<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US" > <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US" > <![endif]-->
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US" "> <![endif]-->
 <!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
 <!--[if gt IE 8]><!-->
-<html class="no-js" lang="en-US" > <!--<![endif]-->
+<html class="no-js" lang="en-US">
+<!--<![endif]-->
 
 <!-- Head begin -->
+
 <head>
-	<link rel='stylesheet' id='contact-form-7-css'  href='wage-files/styles.css' type='text/css' media='all' />
-	<link rel='stylesheet' id='et-gf-open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans:400,700' type='text/css' media='all' />
-	<link rel='stylesheet' id='et_monarch-css-css'  href='wage-files/style.css' type='text/css' media='all' />
-	<link rel='stylesheet' id='font-icons-social-css'  href='wage-files/elusive.css' type='text/css' media='all' />
-	<link rel='stylesheet' id='font-icons-awesome-css'  href='wage-files/font-awesome.css' type='text/css' media='all' />
-	<link rel='stylesheet' id='flexslider-css'  href='wage-files/flexslider.css' type='text/css' media='all' />
-	<link rel='stylesheet' id='peekaboo-foundation-stylesheet-css'  href='wage-files/app.css' type='text/css' media='all' />
-	<!-- <link rel='stylesheet' id='peekaboo-stylesheet-css'  href='wage-files/themes/peekaboo/css/style.css' type='text/css' media='all' /> -->
-	<!--[if lt IE 9]>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <link rel='stylesheet' id='contact-form-7-css' href='wage-files/styles.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='et-gf-open-sans-css' href='//fonts.googleapis.com/css?family=Open+Sans:400,700' type='text/css' media='all' />
+    <link rel='stylesheet' id='et_monarch-css-css' href='wage-files/style.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='font-icons-social-css' href='wage-files/elusive.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='font-icons-awesome-css' href='wage-files/font-awesome.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='flexslider-css' href='wage-files/flexslider.css' type='text/css' media='all' />
+    <link rel='stylesheet' id='peekaboo-foundation-stylesheet-css' href='wage-files/app.css' type='text/css' media='all' />
+    <!-- <link rel='stylesheet' id='peekaboo-stylesheet-css'  href='wage-files/themes/peekaboo/css/style.css' type='text/css' media='all' /> -->
+    <!--[if lt IE 9]>
 	<link rel='stylesheet' id='peekaboo-ie-only-css'  href='wage-files/themes/peekaboo/css/ie.css' type='text/css' media='all' />
 	<![endif]-->
-	<script type='text/javascript' src='wage-files/jquery.js'></script>
-	<script type='text/javascript' src='wage-files/jquery-migrate.min.js'></script>
-	<script type='text/javascript' src='wage-files/modernizr.js'></script>
-	<link rel="shortcut icon" href="http://www.calculators.org/learn/wp-content/themes/peekaboo/img/favicon.ico"/>
-	<style type='text/css'>
-		.replace {font-family:'Raleway';}
-	</style>
-	<link href="//fonts.googleapis.com/css?family=Raleway:400,600" rel="stylesheet" type="text/css">
-	<link type='text/css' rel='StyleSheet' href='wage-files/KJE.css' />
-	<link type='text/css' rel='StyleSheet' href='wage-files/KJESiteSpecific.css' />
-	<style type='text/css'>
+    <script type='text/javascript' src='wage-files/jquery.js'></script>
+    <script type='text/javascript' src='wage-files/jquery-migrate.min.js'></script>
+    <script type='text/javascript' src='wage-files/modernizr.js'></script>
+    <style type='text/css'>
+        .replace {
+            font-family: 'Raleway';
+        }
+    </style>
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,600" rel="stylesheet" type="text/css">
+    <link type='text/css' rel='StyleSheet' href='wage-files/KJE.css' />
+    <link type='text/css' rel='StyleSheet' href='wage-files/KJESiteSpecific.css' />
+    <style type='text/css'>
+        input[type=number]::-webkit-outer-spin-button,
+        input[type=number]::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+        
+        input[type=number] {
+            -moz-appearance: textfield;
+        }
+    </style>
 
-		input[type=number]::-webkit-outer-spin-button,
-		input[type=number]::-webkit-inner-spin-button {
-			-webkit-appearance: none;
-			margin: 0;
-		}
+    <script Language='JavaScript'>
+        function sn(num) {
 
-		input[type=number] {
-			-moz-appearance:textfield;
-		}
-
-	</style>
-
-	<script Language='JavaScript'>
-
-		function sn(num) {
-
-			num=num.toString();
+            num = num.toString();
 
 
-			var len = num.length;
-			var rnum = "";
-			var test = "";
-			var j = 0;
+            var len = num.length;
+            var rnum = "";
+            var test = "";
+            var j = 0;
 
-			var b = num.substring(0,1);
-			if(b == "-") {
-				rnum = "-";
-			}
+            var b = num.substring(0, 1);
+            if (b == "-") {
+                rnum = "-";
+            }
 
-			for(i = 0; i <= len; i++) {
+            for (i = 0; i <= len; i++) {
 
-				b = num.substring(i,i+1);
+                b = num.substring(i, i + 1);
 
-				if(b == "0" || b == "1" || b == "2" || b == "3" || b == "4" || b == "5" || b == "6" || b == "7" || b == "8" || b == "9" || b == ".") {
-					rnum = rnum + "" + b;
+                if (b == "0" || b == "1" || b == "2" || b == "3" || b == "4" || b == "5" || b == "6" || b == "7" || b == "8" || b == "9" || b == ".") {
+                    rnum = rnum + "" + b;
 
-				}
+                }
 
-			}
+            }
 
-			if(rnum == "" || rnum == "-") {
-				rnum = 0;
-			}
+            if (rnum == "" || rnum == "-") {
+                rnum = 0;
+            }
 
-			rnum = Number(rnum);
+            rnum = Number(rnum);
 
-			return rnum;
+            return rnum;
 
-		}
+        }
 
 
 
-		function fns(num, places, comma, type, show) {
+        function fns(num, places, comma, type, show) {
 
-			var sym_1 = "$";
-			var sym_2 = ""; 
+            var sym_1 = "$";
+            var sym_2 = "";
 
-			var isNeg=0;
+            var isNeg = 0;
 
-			if(num < 0) {
-				num=num*-1;
-				isNeg=1;
-			}
+            if (num < 0) {
+                num = num * -1;
+                isNeg = 1;
+            }
 
-			var myDecFact = 1;
-			var myPlaces = 0;
-			var myZeros = "";
-			while(myPlaces < places) {
-				myDecFact = myDecFact * 10;
-				myPlaces = Number(myPlaces) + Number(1);
-				myZeros = myZeros + "0";
-			}
+            var myDecFact = 1;
+            var myPlaces = 0;
+            var myZeros = "";
+            while (myPlaces < places) {
+                myDecFact = myDecFact * 10;
+                myPlaces = Number(myPlaces) + Number(1);
+                myZeros = myZeros + "0";
+            }
 
-			onum=Math.round(num*myDecFact)/myDecFact;
-			
-			integer=Math.floor(onum);
+            onum = Math.round(num * myDecFact) / myDecFact;
 
-			if (Math.ceil(onum) == integer) {
-				decimal=myZeros;
-			} else{
-				decimal=Math.round((onum-integer)* myDecFact)
-			}
-			decimal=decimal.toString();
-			if (decimal.length<places) {
-				fillZeroes = places - decimal.length;
-				for (z=0;z<fillZeroes;z++) {
-					decimal="0"+decimal;
-				}
-			}
+            integer = Math.floor(onum);
 
-			if(places > 0) {
-				decimal = "." + decimal;
-			}
+            if (Math.ceil(onum) == integer) {
+                decimal = myZeros;
+            } else {
+                decimal = Math.round((onum - integer) * myDecFact)
+            }
+            decimal = decimal.toString();
+            if (decimal.length < places) {
+                fillZeroes = places - decimal.length;
+                for (z = 0; z < fillZeroes; z++) {
+                    decimal = "0" + decimal;
+                }
+            }
 
-			if(comma == 1) {
-				integer=integer.toString();
-				var tmpnum="";
-				var tmpinteger="";
-				var y=0;
+            if (places > 0) {
+                decimal = "." + decimal;
+            }
 
-				for (x=integer.length;x>0;x--) {
-					tmpnum=tmpnum+integer.charAt(x-1);
-					y=y+1;
-					if (y==3 & x>1) {
-						tmpnum=tmpnum+",";
-						y=0;
-					}
-				}
+            if (comma == 1) {
+                integer = integer.toString();
+                var tmpnum = "";
+                var tmpinteger = "";
+                var y = 0;
 
-				for (x=tmpnum.length;x>0;x--) {
-					tmpinteger=tmpinteger+tmpnum.charAt(x-1);
-				}
+                for (x = integer.length; x > 0; x--) {
+                    tmpnum = tmpnum + integer.charAt(x - 1);
+                    y = y + 1;
+                    if (y == 3 & x > 1) {
+                        tmpnum = tmpnum + ",";
+                        y = 0;
+                    }
+                }
 
-
-				finNum=tmpinteger+""+decimal;
-			} else {
-				finNum=integer+""+decimal;
-			}
-
-			if(isNeg == 1) {
-				if(type == 1 && show == 1) {
-					finNum = "-" + sym_1 + "" + finNum + "" + sym_2;
-				} else {
-					finNum = "-" + finNum;
-				}
-			} else {
-				if(show == 1) {
-					if(type == 1) {
-						finNum = sym_1 + "" + finNum + "" + sym_2;
-					} else
-					if(type == 2) {
-						finNum = finNum + "%";
-					}
-
-				}
-
-			}
-
-			return finNum;
-		}
+                for (x = tmpnum.length; x > 0; x--) {
+                    tmpinteger = tmpinteger + tmpnum.charAt(x - 1);
+                }
 
 
-		function compute(form)  {
+                finNum = tmpinteger + "" + decimal;
+            } else {
+                finNum = integer + "" + decimal;
+            }
 
-			var VannualWage = 0;
+            if (isNeg == 1) {
+                if (type == 1 && show == 1) {
+                    finNum = "-" + sym_1 + "" + finNum + "" + sym_2;
+                } else {
+                    finNum = "-" + finNum;
+                }
+            } else {
+                if (show == 1) {
+                    if (type == 1) {
+                        finNum = sym_1 + "" + finNum + "" + sym_2;
+                    } else
+                    if (type == 2) {
+                        finNum = finNum + "%";
+                    }
 
-			var Vwage = sn(document.calc.wage.value);
-			var Vperiod = document.calc.period.selectedIndex;
-			var VweekHours = sn(document.calc.weekHours.value);
+                }
 
-	      if(Vperiod == 0) { //hourly
-	      	VannualWage = Vwage * VweekHours * 52;
-	      } else
-	      if(Vperiod == 1) { //weekly
-	      	VannualWage = Vwage * 52;
-	      } else
-	      if(Vperiod == 2) { //bi-weekly
-	      	VannualWage = Vwage * 26;
-	      } else
-	      if(Vperiod == 3) { //semi-monthly
-	      	VannualWage = Vwage * 24;
-	      } else
-	      if(Vperiod == 4) { //monthly
-	      	VannualWage = Vwage * 12;
-	      } else
-	      if(Vperiod == 5) { //quarterly
-	      	VannualWage = Vwage * 4;
-	      } else
-	      if(Vperiod == 6) { //annually
-	      	VannualWage = Vwage;
-	      }
+            }
 
-	      Vhourly = VannualWage / 52 / VweekHours;
-	      document.calc.hourly.value = fns(Vhourly,2,1,1,1);
-
-	      Vweekly = VannualWage / 52;
-	      document.calc.weekly.value = fns(Vweekly,2,1,1,1);
-
-	      Vbiweekly = VannualWage / 26;
-	      document.calc.biweekly.value = fns(Vbiweekly,2,1,1,1);
-
-	      Vsemimonthly = VannualWage / 24;
-	      document.calc.semimonthly.value = fns(Vsemimonthly,2,1,1,1);
-
-	      Vmonthly = VannualWage / 12;
-	      document.calc.monthly.value = fns(Vmonthly,2,1,1,1);
-
-	      Vquarterly = VannualWage / 4;
-	      document.calc.quarterly.value = fns(Vquarterly,2,1,1,1);
-
-	      Vannually = VannualWage;
-	      document.calc.annually.value = fns(Vannually,2,1,1,1);
-
-	  }
+            return finNum;
+        }
 
 
-	  function clear_results(form) {
+        function compute(form) {
 
-	  	document.calc.hourly.value = "";
-	  	document.calc.weekly.value = "";
-	  	document.calc.biweekly.value = "";
-	  	document.calc.semimonthly.value = "";
-	  	document.calc.monthly.value = "";
-	  	document.calc.quarterly.value = "";
-	  	document.calc.annually.value = "";
+            var VannualWage = 0;
 
-	  }</script>
-	</head>
+            var Vwage = sn(document.calc.wage.value);
+            var Vperiod = document.calc.period.selectedIndex;
+            var VweekHours = sn(document.calc.weekHours.value);
 
-	<body >
-		<form name="calc" method="post" action="#">
-			<table width="100%" style="padding-top: 50px">
-				<tbody>
-					<tr>
-						<td>
-							Period of time you wish to convert wages from:
-						</td>
-						<td align="center">
-							<select name="period" size="1" onChange="compute(this.form)" tabindex="1">
+            if (Vperiod == 0) { //hourly
+                VannualWage = Vwage * VweekHours * 52;
+            } else
+            if (Vperiod == 1) { //weekly
+                VannualWage = Vwage * 52;
+            } else
+            if (Vperiod == 2) { //bi-weekly
+                VannualWage = Vwage * 26;
+            } else
+            if (Vperiod == 3) { //semi-monthly
+                VannualWage = Vwage * 24;
+            } else
+            if (Vperiod == 4) { //monthly
+                VannualWage = Vwage * 12;
+            } else
+            if (Vperiod == 5) { //quarterly
+                VannualWage = Vwage * 4;
+            } else
+            if (Vperiod == 6) { //annually
+                VannualWage = Vwage;
+            }
+
+            Vhourly = VannualWage / 52 / VweekHours;
+            document.calc.hourly.value = fns(Vhourly, 2, 1, 1, 1);
+
+            Vweekly = VannualWage / 52;
+            document.calc.weekly.value = fns(Vweekly, 2, 1, 1, 1);
+
+            Vbiweekly = VannualWage / 26;
+            document.calc.biweekly.value = fns(Vbiweekly, 2, 1, 1, 1);
+
+            Vsemimonthly = VannualWage / 24;
+            document.calc.semimonthly.value = fns(Vsemimonthly, 2, 1, 1, 1);
+
+            Vmonthly = VannualWage / 12;
+            document.calc.monthly.value = fns(Vmonthly, 2, 1, 1, 1);
+
+            Vquarterly = VannualWage / 4;
+            document.calc.quarterly.value = fns(Vquarterly, 2, 1, 1, 1);
+
+            Vannually = VannualWage;
+            document.calc.annually.value = fns(Vannually, 2, 1, 1, 1);
+
+        }
+
+
+        function clear_results(form) {
+
+            document.calc.hourly.value = "";
+            document.calc.weekly.value = "";
+            document.calc.biweekly.value = "";
+            document.calc.semimonthly.value = "";
+            document.calc.monthly.value = "";
+            document.calc.quarterly.value = "";
+            document.calc.annually.value = "";
+
+        }
+    </script>
+</head>
+
+<body>
+    <div style=" width:50%; min-width:500px">
+        <form name="calc" method="post" action="#">
+            <table width="100%" style="padding-top: 50px">
+                <tbody>
+                    <tr>
+                        <td>
+                            Period of time you wish to convert wages from:
+                        </td>
+                        <td align="center">
+                            <select name="period" size="1" onChange="compute(this.form)" tabindex="1">
 								<option value="0">Hourly</option>
 								<option value="1">Weekly</option>
 								<option value="2">Bi-Weekly</option>
@@ -259,98 +261,100 @@
 								<option value="5">Quarterly</option>
 								<option value="6">Annually</option>
 							</select>
-						</td>
-					</tr>
+                        </td>
+                    </tr>
 
-					<tr>
-						<td>
-							Amount made in the above period of time:
-						</td>
-						<td align="center">
-							<input name="wage" type="number" step="any" value="15" size="15"  onKeyUp="clear_results(this.form);compute(this.form)" onfocus="this.value = this.value=='15'?'':this.value;" onblur="this.value = this.value==''?'15':this.value;" tabindex="2"  />
-						</td>
-					</tr>
+                    <tr>
+                        <td>
+                            Amount made in the above period of time:
+                        </td>
+                        <td align="center">
+                            <input name="wage" type="number" step="any" value="15" size="15" onKeyUp="clear_results(this.form);compute(this.form)" onfocus="this.value = this.value=='15'?'':this.value;" onblur="this.value = this.value==''?'15':this.value;" tabindex="2" />
+                        </td>
+                    </tr>
 
-					<tr>
-						<td>
-							Hours per work week:
-						</td>
-						<td align="center">
-							<input type="number" name="weekHours" size="15" value="40" onKeyUp="clear_results(this.form);compute(this.form)" onfocus="this.value = this.value=='40'?'':this.value;" onblur="this.value = this.value==''?'40':this.value;" tabindex="3" step="any" />
-						</td>
-					</tr>
+                    <tr>
+                        <td>
+                            Hours per work week:
+                        </td>
+                        <td align="center">
+                            <input type="number" name="weekHours" size="15" value="40" onKeyUp="clear_results(this.form);compute(this.form)" onfocus="this.value = this.value=='40'?'':this.value;" onblur="this.value = this.value==''?'40':this.value;" tabindex="3" step="any" />
+                        </td>
+                    </tr>
 
-					<tr>
-						<td align="center" colspan="2">
-							<p align="center"><br /><input type="reset" class="button-action button replace green" value="Clear Form" tabindex="5" /> <input type="button" class="button-action button replace blue" value="Convert Wage" onClick="compute(this.form)" tabindex="4" /></p>
-						</td>
-					</tr>
+                    <tr>
+                        <td align="center" colspan="2">
+                            <p align="center"><br /><input type="reset" class="button-action button replace green" value="Clear Form" tabindex="5" /> <input type="button" class="button-action button replace blue" value="Convert Wage" onClick="compute(this.form)" tabindex="4"
+                                /></p>
+                        </td>
+                    </tr>
 
-					<tr>
-						<td>
-							Hourly:
-						</td>
-						<td align="center">
-							<input type="text" name="hourly" size="15" />
-						</td>
-					</tr>
+                    <tr>
+                        <td>
+                            Hourly:
+                        </td>
+                        <td align="center">
+                            <input type="text" name="hourly" size="15" />
+                        </td>
+                    </tr>
 
-					<tr>
-						<td>
-							Weekly:
-						</td>
-						<td align="center">
-							<input type="text" name="weekly" size="15" />
-						</td>
-					</tr>
+                    <tr>
+                        <td>
+                            Weekly:
+                        </td>
+                        <td align="center">
+                            <input type="text" name="weekly" size="15" />
+                        </td>
+                    </tr>
 
-					<tr>
-						<td>
-							Bi-Weekly:
-						</td>
-						<td align="center">
-							<input type="text" name="biweekly" size="15" />
-						</td>
-					</tr>
+                    <tr>
+                        <td>
+                            Bi-Weekly:
+                        </td>
+                        <td align="center">
+                            <input type="text" name="biweekly" size="15" />
+                        </td>
+                    </tr>
 
-					<tr>
-						<td>
-							Semi-Monthly:
-						</td>
-						<td align="center">
-							<input type="text" name="semimonthly" size="15" />
-						</td>
-					</tr>
+                    <tr>
+                        <td>
+                            Semi-Monthly:
+                        </td>
+                        <td align="center">
+                            <input type="text" name="semimonthly" size="15" />
+                        </td>
+                    </tr>
 
-					<tr>
-						<td>
-							Monthly:
-						</td>
-						<td align="center">
-							<input type="text" name="monthly" size="15" />
-						</td>
-					</tr>
+                    <tr>
+                        <td>
+                            Monthly:
+                        </td>
+                        <td align="center">
+                            <input type="text" name="monthly" size="15" />
+                        </td>
+                    </tr>
 
-					<tr>
-						<td>
-							Quarterly:
-						</td>
-						<td align="center">
-							<input type="text" name="quarterly" size="15" />
-						</td>
-					</tr>
+                    <tr>
+                        <td>
+                            Quarterly:
+                        </td>
+                        <td align="center">
+                            <input type="text" name="quarterly" size="15" />
+                        </td>
+                    </tr>
 
-					<tr>
-						<td>
-							Annually:
-						</td>
-						<td align="center">
-							<input type="text" name="annually" size="15" />
-						</td>
-					</tr>
-				</tbody>
-			</table>
-		</form>
+                    <tr>
+                        <td>
+                            Annually:
+                        </td>
+                        <td align="center">
+                            <input type="text" name="annually" size="15" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </div>
+</body>
 
-	</body>
-	</html>
+</html>

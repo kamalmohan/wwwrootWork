@@ -6,7 +6,7 @@
 <body>
 <a href="index.htm">HTML</a>
 <?php
-echo date(r);
+echo date("r");
 switch(date("w")) {
 	 
 	case 1:

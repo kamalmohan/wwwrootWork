@@ -30,7 +30,7 @@ To use this code on your website, get a free API key from Google.
 Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
 -->
     <script>
-        var x = document.getElementById("demo");
+        var x = document.getElementById("mapholder");
 
         function getLocation() {
             if (navigator.geolocation) {
@@ -45,8 +45,8 @@ Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
             lon = position.coords.longitude;
             latlon = new google.maps.LatLng(lat, lon)
             mapholder = document.getElementById('mapholder')
-            mapholder.style.height = '250px';
-            mapholder.style.width = '500px';
+            mapholder.style.height = '100vh';
+            mapholder.style.width = '100%';
 
             var myOptions = {
                 center: latlon,
@@ -159,11 +159,14 @@ Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
             <div data-type="countup" data-id="16342" class="tickcounter" style="padding: 20px; background-color: inherit;">
                 <a href="//www.tickcounter.com/countup/16342/working-in-argent" title="Working in Argent">Working in Argent</a>
             </div>
-            <div data-type="countup" data-id="16225" class="tickcounter" style="padding: 20px">
+            <div data-type="countup" data-id="16225" class="tickcounter" style="padding: 20px; float: left; width: 30%;">
                 <a href="//www.tickcounter.com/countup/16225/ee-acceptance-date" title="EE Acceptance Date">EE Acceptance Date</a>
             </div>
-            <div data-type="countup" data-id="16227" class="tickcounter" style="padding: 20px">
+            <div data-type="countup" data-id="16227" class="tickcounter" style="padding: 20px; float: left; width: 30%;">
                 <a href="//www.tickcounter.com/countup/16227/medicals-passed" title="Medicals Passed">Medicals Passed</a>
+            </div>
+            <div data-type="countup" data-id="21566" class="tickcounter" style="padding: 20px; float: left; width: 30%;">
+                <a href="//www.tickcounter.com/countup/21566/ppr" title="PPR">PPR</a>
             </div>
             <div data-type="clock" data-id="213" class="tickcounter" style="padding: 20px; float: left; width: 30%;">
                 <a href="//www.tickcounter.com/worldclock/213/" title="Current time in Toronto">Current time in Toronto</a>
